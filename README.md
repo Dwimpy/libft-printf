@@ -5,8 +5,10 @@ This project is a recreation of the standard `stdlib` library in C, with impleme
 
 ## How to compile:
 
+```bash
 	git clone https://github.com/Dwimpy/libft-printf
 	make
+```
 
 Functions
 ---------
