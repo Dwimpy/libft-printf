@@ -59,6 +59,7 @@ Functions
 *   `ft_isdigit` - checks if a character is a digit.
 *   `ft_isprint` - checks if a character is printable.
 *   `ft_atoi` - converts a string to an integer.
+*   `ft_atof' - converts a string to a floating point number. Supports scientific notation (1e-5).
 *   `ft_tolower` - converts a character to lowercase.
 *   `ft_toupper` - converts a character to uppercase.
 *   `ft_contains` - checks if a string contains a specific character.
@@ -90,6 +91,6 @@ ft\_printf function
 
 The function takes a format string, which specifies the format of the output, followed by optional arguments that correspond to the format specifiers in the format string. The function then formats the output according to the format string and prints it to the standard output stream.
 
-The function supports a variety of format specifiers, including integers, floating-point numbers, strings, characters, and pointers, and it also provides support for various flags, such as padding, precision, and field width, that can be used to further customize the output.
+The function supports a variety of format specifiers, including integers, strings, characters, and pointers, and it also provides support for various flags, such as padding, precision, and field width, that can be used to further customize the output.
 
 `ft_printf` returns the number of characters printed to the standard output stream, excluding the terminating null byte. If an error occurs, it returns a negative value.
