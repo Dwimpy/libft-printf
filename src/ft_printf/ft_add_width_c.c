@@ -6,11 +6,11 @@
 /*   By: arobu <arobu@student.42heilbronn.de>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/02 02:03:49 by arobu             #+#    #+#             */
-/*   Updated: 2022/11/05 19:18:22 by arobu            ###   ########.fr       */
+/*   Updated: 2023/02/25 14:31:09 by arobu            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../include/ft_printf.h"
+#include "ft_printf.h"
 
 static char	*ft_create_width_c(t_fields *field)
 {

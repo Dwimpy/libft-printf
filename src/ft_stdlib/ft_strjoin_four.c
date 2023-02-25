@@ -6,11 +6,11 @@
 /*   By: arobu <arobu@student.42heilbronn.de>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/14 21:33:28 by arobu             #+#    #+#             */
-/*   Updated: 2022/11/25 19:18:52 by arobu            ###   ########.fr       */
+/*   Updated: 2023/02/25 14:31:35 by arobu            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../../include/libft.h"
+#include "libft.h"
 
 static size_t	get_str_len(const char *s1, const char *s2, \
 						const char *s3, const char *s4)

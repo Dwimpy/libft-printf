@@ -6,7 +6,7 @@
 #    By: arobu <arobu@student.42heilbronn.de>       +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/10/19 01:17:05 by arobu             #+#    #+#              #
-#    Updated: 2023/02/25 14:17:36 by arobu            ###   ########.fr        #
+#    Updated: 2023/02/25 14:34:47 by arobu            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -96,9 +96,6 @@ $(FT_STDLIB_OBJ): | $(OBJ_DIR)
 
 $(OBJ_DIR):
 					@mkdir -p $(OBJ_DIR)
-show:
-					@echo $(STDLIB_OBJS)
-					@echo $(PRINTF_OBJS)
 
 printf:		$(FT_PRINTF_LIB)
 

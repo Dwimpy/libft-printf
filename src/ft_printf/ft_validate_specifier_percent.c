@@ -6,11 +6,11 @@
 /*   By: arobu <arobu@student.42heilbronn.de>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/05 12:52:43 by arobu             #+#    #+#             */
-/*   Updated: 2022/11/05 16:56:04 by arobu            ###   ########.fr       */
+/*   Updated: 2023/02/25 14:31:09 by arobu            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../include/ft_printf.h"
+#include "ft_printf.h"
 
 void	ft_validate_specifier_percent(t_fields *field)
 {

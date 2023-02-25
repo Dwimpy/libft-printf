@@ -6,11 +6,11 @@
 /*   By: arobu <arobu@student.42heilbronn.de>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/24 21:06:21 by arobu             #+#    #+#             */
-/*   Updated: 2022/12/01 03:58:39 by arobu            ###   ########.fr       */
+/*   Updated: 2023/02/25 14:31:27 by arobu            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../../include/libft.h"
+#include "libft.h"
 
 int	ft_isspace3(char c)
 {
