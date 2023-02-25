@@ -6,21 +6,11 @@
 /*   By: arobu <arobu@student.42heilbronn.de>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/14 20:32:05 by arobu             #+#    #+#             */
-/*   Updated: 2022/10/20 19:28:11 by arobu            ###   ########.fr       */
+/*   Updated: 2023/02/25 13:44:40 by arobu            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
-static int	ft_isspace3(char c)
-{
-	return (c == ' '
-		|| c == '\r'
-		|| c == '\t'
-		|| c == '\n'
-		|| c == '\f'
-		|| c == '\v');
-}
 
 int	ft_atoi(const char *s)
 {

@@ -6,7 +6,7 @@
 /*   By: arobu <arobu@student.42heilbronn.de>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/11 20:36:02 by arobu             #+#    #+#             */
-/*   Updated: 2023/02/24 21:20:04 by arobu            ###   ########.fr       */
+/*   Updated: 2023/02/25 13:45:45 by arobu            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -71,6 +71,23 @@ int					ft_isprint(int c);
  @return The integer value of the string.
 */
 int					ft_atoi(const char *str);
+/**
+
+@brief Converts a string to a floating-point number.
+This function converts the initial portion of the string pointed to by str
+to a double representation. It skips all leading white-space characters,
+and then, if the first character that is not a white-space character is a
+valid digit, it takes as many characters as possible that are valid digits,
+optionally followed by a decimal-point character, and then an optional
+exponent part (an 'e' or 'E' character followed by an optionally signed
+integer). The conversion stops when the first unrecognized character is
+reached. If no conversion is performed, zero is returned. If the value
+returned is out of range of a double, the behavior is undefined.
+@param str The string to convert.
+@return The converted floating-point number, or zero if no conversion is
+performed.
+*/
+double				ft_atof(const char *str);
 /**
 
  @brief Converts an uppercase character to lowercase.
@@ -235,6 +252,26 @@ char				*ft_substr(char const *str, unsigned int start_index,
 */
 char				*ft_strjoin(const char *s1, const char *s2);
 /**
+ 
+Concatenates four strings.
+ @param s1 The first string.
+ @param s2 The second string.
+ @param s3 The third string.
+ @param s4 The fourth string.
+ @return A newly allocated string containing the concatenated strings.
+*/
+char				*ft_strjoin_four(const char *s1, const char *s2,
+						const char *s3, const char *s4);
+/**
+Concatenates three strings.
+ @param s1 The first string.
+ @param s2 The second string.
+ @param s3 The third string.
+ @return A newly allocated string containing the concatenated strings.
+*/
+char				*ft_strjoin_three(const char *s1, const char *s2,
+						const char *s3);
+/**
 
  @brief Allocates and returns a copy of the string 's1' without 
 the characters specified in the 'set' argument
@@ -362,28 +399,13 @@ Concatenates two strings.
 */
 char				*ft_concat(const char *str1, const char *str2);
 /**
-
-Concatenates four strings.
- @param s1 The first string.
- @param s2 The second string.
- @param s3 The third string.
- @param s4 The fourth string.
- @return A newly allocated string containing the concatenated strings.
+@brief Checks whether a given character is a whitespace character.
+@param c The character to check.
+@return int Returns 1 if the character is a whitespace character,
+otherwise returns 0.
 */
-char				*ft_strjoin_four(const char *s1, const char *s2,
-						const char *s3, const char *s4);
+int					ft_isspace3(char c);
 /**
-
-Concatenates three strings.
- @param s1 The first string.
- @param s2 The second string.
- @param s3 The third string.
- @return A newly allocated string containing the concatenated strings.
-*/
-char				*ft_strjoin_three(const char *s1, const char *s2,
-						const char *s3);
-/**
-
 Copies the source string to the destination string up to a given size.
  @param dst The destination string.
  @param src The source string.
