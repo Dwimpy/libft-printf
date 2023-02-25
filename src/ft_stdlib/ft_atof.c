@@ -6,12 +6,12 @@
 /*   By: arobu <arobu@student.42heilbronn.de>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/07 17:24:00 by arobu             #+#    #+#             */
-/*   Updated: 2023/02/25 13:46:15 by arobu            ###   ########.fr       */
+/*   Updated: 2023/02/25 13:48:44 by arobu            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
 #include <stdio.h>
+#include "libft.h"
 
 static void	treat_dot(const char **str, int *e, \
 					int *res_sign, double *result);

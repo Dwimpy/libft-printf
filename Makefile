@@ -6,14 +6,14 @@
 #    By: arobu <arobu@student.42heilbronn.de>       +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/10/19 01:17:05 by arobu             #+#    #+#              #
-#    Updated: 2022/11/19 23:19:18 by arobu            ###   ########.fr        #
+#    Updated: 2023/02/25 13:49:35 by arobu            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 # Variables
 
 NAME			= libft.a
-INCLUDE			= include/
+INCLUDE			= ./include/
 
 FT_PRINTF_SDIR	= ./src/ft_printf
 FT_STDLIB_SDIR	= ./src/ft_stdlib
