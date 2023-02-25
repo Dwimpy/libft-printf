@@ -59,7 +59,7 @@ Functions
 *   `ft_isdigit` - checks if a character is a digit.
 *   `ft_isprint` - checks if a character is printable.
 *   `ft_atoi` - converts a string to an integer.
-*   `ft_atof' - converts a string to a floating point number. Supports scientific notation (1e-5).
+*   `ft_atof` - converts a string to a floating point number. Supports scientific notation (1e-5).
 *   `ft_tolower` - converts a character to lowercase.
 *   `ft_toupper` - converts a character to uppercase.
 *   `ft_contains` - checks if a string contains a specific character.
