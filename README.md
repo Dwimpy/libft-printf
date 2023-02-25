@@ -1,5 +1,5 @@
-ft\_lib and ft\_printf
-======================
+ft\_lib and ft\_printf - 42 Projects
+====================================
 
 This project is a recreation of the standard `stdlib` library in C, with implementations for commonly used functions such as string manipulation, memory management, and linked lists. All of the functions are prefixed with `ft_`.
 
