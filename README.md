@@ -60,7 +60,7 @@ Functions
 *   <code>[ft_isalnum](https://github.com/Dwimpy/libft-printf/blob/main/src/ft_stdlib/ft_isalnum.c)</code> - checks if a character is alphanumeric.
 *   <code>[ft_isalpha](https://github.com/Dwimpy/libft-printf/blob/main/src/ft_stdlib/ft_isalpha.c)</code> - checks if a character is alphabetic.
 *   <code>[ft_isascii](https://github.com/Dwimpy/libft-printf/blob/main/src/ft_stdlib/ft_isascii.c)</code> - checks if a character is a valid ASCII character.
-*   <code>[ft_isdigit](https://github.com/Dwimpy/libft-printf/blob/main/src/ft_stdlib/ft_isascii.c)</code> - checks if a character is a digit.
+*   <code>[ft_isdigit](https://github.com/Dwimpy/libft-printf/blob/main/src/ft_stdlib/ft_isdigit.c)</code> - checks if a character is a digit.
 *   <code>[ft_isprint](https://github.com/Dwimpy/libft-printf/blob/main/src/ft_stdlib/ft_isprint.c)</code> - checks if a character is printable.
 *   <code>[ft_isspace3](https://github.com/Dwimpy/libft-printf/blob/main/src/ft_stdlib/ft_isspace3.c)</code> - checks if a character is whitespace.
 *   <code>[ft_atoi](https://github.com/Dwimpy/libft-printf/blob/main/src/ft_stdlib/ft_atoi.c)</code> - converts a string to an integer.
