@@ -6,7 +6,7 @@
 /*   By: arobu <arobu@student.42heilbronn.de>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/11 20:36:02 by arobu             #+#    #+#             */
-/*   Updated: 2023/02/25 13:45:45 by arobu            ###   ########.fr       */
+/*   Updated: 2023/02/27 14:09:42 by arobu            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -66,11 +66,26 @@ int					ft_isdigit(int c);
 int					ft_isprint(int c);
 /**
 
+ @brief Checks if the string is a valid number.
+ @param str The string to check.
+ @return A boolean indicating if its true or false.
+*/
+int					ft_isnumber(char *str);
+/**
+
  @brief Converts a string to an integer.
  @param str The string to convert.
  @return The integer value of the string.
 */
 int					ft_atoi(const char *str);
+/**
+
+ @brief Converts a string to an long.
+ @param str The string to convert.
+ @return The long value of the string.
+*/
+long				ft_atoi_long(const char *s);
+
 /**
 
 @brief Converts a string to a floating-point number.

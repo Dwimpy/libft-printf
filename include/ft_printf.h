@@ -6,7 +6,7 @@
 /*   By: arobu <arobu@student.42heilbronn.de>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/29 05:24:32 by arobu             #+#    #+#             */
-/*   Updated: 2023/02/24 21:22:27 by arobu            ###   ########.fr       */
+/*   Updated: 2023/02/27 14:01:15 by arobu            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,8 +20,6 @@
 # define BASE_HEX_MINOR "0123456789abcdef"
 # define BASE_HEX_MAJOR "0123456789ABCDEF"
 # define BASE_DECIMAL "0123456789"
-
-# define BUFFER_SIZE 5000
 
 # include "libft.h"
 # include <stdarg.h>
