@@ -1,34 +1,28 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strjoin.c                                       :+:      :+:    :+:   */
+/*   ft_strcat.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: arobu <arobu@student.42heilbronn.de>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/10/14 21:33:28 by arobu             #+#    #+#             */
-/*   Updated: 2023/03/18 14:09:44 by arobu            ###   ########.fr       */
+/*   Created: 2023/04/01 17:11:49 by arobu             #+#    #+#             */
+/*   Updated: 2023/04/01 17:15:18 by arobu            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strjoin(const char *s1, const char *s2)
+char	*ft_strcat(char *dst, char *src)
 {
-	char	*joint_string;
-	size_t	s1_len;
-	size_t	s2_len;
+	char	*dst_ptr;
 
-	if (!s1 || !s2)
+	dst_ptr = dst;
+	if (!dst)
 		return (NULL);
-	s1_len = ft_strlen(s1);
-	s2_len = ft_strlen(s2);
-	joint_string = (char *)malloc(sizeof(char) * (s1_len + s2_len + 1));
-	if (!joint_string)
-		return (NULL);
-	while (*s1)
-		*joint_string++ = *s1++;
-	while (*s2)
-		*joint_string++ = *s2++;
-	*joint_string = '\0';
-	return (joint_string - s1_len - s2_len);
+	while (*dst != '\0')
+		dst++;
+	while (*src != '\0')
+		*dst++ = *src++;
+	*dst = '\0';
+	return (dst);
 }
