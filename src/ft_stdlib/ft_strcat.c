@@ -6,7 +6,7 @@
 /*   By: arobu <arobu@student.42heilbronn.de>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/01 17:11:49 by arobu             #+#    #+#             */
-/*   Updated: 2023/04/01 17:15:18 by arobu            ###   ########.fr       */
+/*   Updated: 2023/04/05 02:25:21 by arobu            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,5 +24,5 @@ char	*ft_strcat(char *dst, char *src)
 	while (*src != '\0')
 		*dst++ = *src++;
 	*dst = '\0';
-	return (dst);
+	return (dst_ptr);
 }
