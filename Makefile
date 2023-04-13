@@ -6,7 +6,7 @@
 #    By: arobu <arobu@student.42heilbronn.de>       +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/10/19 01:17:05 by arobu             #+#    #+#              #
-#    Updated: 2023/04/01 17:14:18 by arobu            ###   ########.fr        #
+#    Updated: 2023/04/14 00:36:43 by arobu            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -62,7 +62,7 @@ STDLIB_SRCS	=	ft_atof.c ft_atoi.c ft_bzero.c  \
 				ft_strlen.c ft_strmapi.c ft_strncmp.c ft_strnew_zeros.c  \
 				ft_strnstr.c ft_strrchr.c ft_strtrim.c ft_substr.c  \
 				ft_tolower.c ft_toupper.c ft_uitoa.c ft_atoi_long.c ft_isnumber.c \
-				ft_strcpy.c ft_strcat.c
+				ft_strcpy.c ft_strcat.c ft_strncpy.c ft_strncat.c
 STDLIB_OBJS	= 	$(patsubst %.c, $(FT_STDLIB_OBJ)/%.o, $(STDLIB_SRCS))
 
 PRINTF_SRCS	=	ft_add_width_c.c ft_count_digits.c ft_create_precision.c ft_create_string.c  \

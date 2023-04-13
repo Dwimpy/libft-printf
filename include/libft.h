@@ -6,7 +6,7 @@
 /*   By: arobu <arobu@student.42heilbronn.de>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/11 20:36:02 by arobu             #+#    #+#             */
-/*   Updated: 2023/04/01 17:44:40 by arobu            ###   ########.fr       */
+/*   Updated: 2023/04/14 00:36:27 by arobu            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,6 +33,8 @@ typedef struct s_list
 
 char				*ft_strcpy(char *dst, char *src);
 char				*ft_strcat(char *dst, char *src);
+char				*ft_strncpy(char *dst, char *src, size_t len);
+char				*ft_strncat(char *dst, char *src, size_t len);
 
 /**
 
