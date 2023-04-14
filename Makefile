@@ -6,7 +6,7 @@
 #    By: arobu <arobu@student.42heilbronn.de>       +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/10/19 01:17:05 by arobu             #+#    #+#              #
-#    Updated: 2023/04/14 00:36:43 by arobu            ###   ########.fr        #
+#    Updated: 2023/04/14 14:27:33 by arobu            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -77,14 +77,16 @@ PRINTF_SRCS	=	ft_add_width_c.c ft_count_digits.c ft_create_precision.c ft_create
 PRINTF_OBJS	= 	$(patsubst %.c, $(FT_PRINTF_OBJ)/%.o, $(PRINTF_SRCS))
 
 
-all: libft printf $(NAME)
+all: libft printf 
+	${MAKE} $(NAME) -j
 
 $(NAME):
 					@echo "$(CYAN) Creating $(YELLOW)libft$(DEF_COLOR) library.$(DEF_COLOR)"
 					@ar rcs libft.a $(STDLIB_OBJS) $(PRINTF_OBJS)
 					@echo "$(CYAN) Created$(DEF_COLOR) $(YELLOW)libft$(DEF_COLOR) $(CYAN)successfully.$(DEF_COLOR)" 
 
-libft:		$(FT_STDLIB_LIB)
+libft:		
+	${MAKE} $(FT_STDLIB_LIB) -j
 
 $(FT_STDLIB_LIB):	$(STDLIB_OBJS)
 
@@ -98,7 +100,8 @@ $(FT_STDLIB_OBJ): | $(OBJ_DIR)
 $(OBJ_DIR):
 					@mkdir -p $(OBJ_DIR)
 
-printf:		$(FT_PRINTF_LIB)
+printf:		
+	${MAKE} $(FT_PRINTF_LIB) -j
 
 $(FT_PRINTF_LIB):	$(PRINTF_OBJS)
 
