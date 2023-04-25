@@ -6,7 +6,7 @@
 /*   By: arobu <arobu@student.42heilbronn.de>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/11 20:36:02 by arobu             #+#    #+#             */
-/*   Updated: 2023/04/14 00:36:27 by arobu            ###   ########.fr       */
+/*   Updated: 2023/04/25 17:37:45 by arobu            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,14 +30,12 @@ typedef struct s_list
 	struct s_list	*next;
 }					t_list;
 
-
 char				*ft_strcpy(char *dst, char *src);
 char				*ft_strcat(char *dst, char *src);
 char				*ft_strncpy(char *dst, char *src, size_t len);
 char				*ft_strncat(char *dst, char *src, size_t len);
 
 /**
-
  @brief Tests whether the given character is alphanumeric.
  @param c The character to test.
  @return Non-zero if the character is alphanumeric, zero otherwise.
